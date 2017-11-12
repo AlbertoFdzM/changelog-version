@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 
-## [UNRELEASED]
+## v1.0.1 - 2017-11-12
 ### Fixed
 - Fix package.json path reference
 
