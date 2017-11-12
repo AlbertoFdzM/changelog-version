@@ -24,7 +24,7 @@ describe('changelog-version', () => {
     fs.removeSync(tempPath)
   })
 
-  it('should update CHANGELOG file with the pckage version', () => {
+  it('should update CHANGELOG file with the package version', () => {
     fs.copySync(path.join(__dirname, 'scenarios/01'), path.join(tempPath))
 
     const pkg = require(path.join(tempPath, 'package.json'))
