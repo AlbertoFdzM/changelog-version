@@ -28,9 +28,10 @@ describe('changelog-version', () => {
     fs.copySync(path.join(__dirname, 'scenarios/01'), path.join(tempPath))
 
     const pkg = require(path.join(tempPath, 'package.json'))
+    const version = 'v' + pkg.version
     let data = readChangelog()
 
-    expect(data.toString()).to.not.have.string(pkg.version)
+    expect(data.toString()).to.not.have.string(version)
 
     process.chdir(tempPath)
     changelogVersion()
@@ -38,6 +39,6 @@ describe('changelog-version', () => {
 
     data = readChangelog()
 
-    expect(data.toString()).to.have.string(pkg.version)
+    expect(data.toString()).to.have.string(version)
   })
 })
