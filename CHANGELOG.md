@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 -->
 
-## [UNRELEASED]
+## v1.0.0 - 2017-11-12
 
 ### Added
 - First commit
