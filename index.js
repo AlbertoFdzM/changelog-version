@@ -2,13 +2,13 @@
 
 const fs = require('fs')
 const path = require('path')
-const pkgInfo = require('./package.json')
 
 const regexp = /(\n+)(?!<!--)(\n)(## )(\[UNRELEASED])/gi
-const version = 'v' + pkgInfo.version
 const date = new Date().toISOString().replace(/T.*/, '')
 
 const changelogVersion = function (changelogPath) {
+  const pkgInfo = require(path.join(process.cwd(), 'package.json'))
+  const version = 'v' + pkgInfo.version
   changelogPath = changelogPath || path.join(process.cwd(), 'CHANGELOG.md')
 
   let data = fs.readFileSync(changelogPath, 'utf8')
