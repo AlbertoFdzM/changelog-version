@@ -14,10 +14,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 -->
 
+## v2.0.0 - 2020-07-15
+
+### Changed
+- Added support for node 10, 12 and 14
+- Updated dev dependencies
+
+### Deprecated
+- **BREAKING** Drop support for node 4 and 7
+
 
 
 
 ## v1.0.1 - 2017-11-12
+
 ### Fixed
 - Fix package.json path reference
 
