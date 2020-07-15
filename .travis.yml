@@ -4,3 +4,6 @@ node_js:
   - "10"
   - "12"
   - "14"
+before_script:
+  - npm install -g nyc codecov
+script: npm run lint && nyc --reporter=json npm test && codecov
