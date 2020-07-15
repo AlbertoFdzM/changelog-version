@@ -1,6 +1,6 @@
 # Changelog Version
 
-[![Build Status](https://travis-ci.org/AlbertoFdzM/changelog-version.svg?branch=master)](https://travis-ci.org/AlbertoFdzM/changelog-version) [![Known Vulnerabilities](https://snyk.io/test/github/AlbertoFdzM/changelog-version/badge.svg?targetFile=package.json)](https://snyk.io/test/github/AlbertoFdzM/changelog-version?targetFile=package.json) [![Maintainability](https://api.codeclimate.com/v1/badges/f1879ac2834dc4a8fc2a/maintainability)](https://codeclimate.com/github/AlbertoFdzM/changelog-version/maintainability) 
+[![Build Status](https://travis-ci.org/AlbertoFdzM/changelog-version.svg?branch=master)](https://travis-ci.org/AlbertoFdzM/changelog-version) [![Known Vulnerabilities](https://snyk.io/test/github/AlbertoFdzM/changelog-version/badge.svg?targetFile=package.json)](https://snyk.io/test/github/AlbertoFdzM/changelog-version?targetFile=package.json) [![Maintainability](https://api.codeclimate.com/v1/badges/f1879ac2834dc4a8fc2a/maintainability)](https://codeclimate.com/github/AlbertoFdzM/changelog-version/maintainability) [![codecov](https://codecov.io/gh/AlbertoFdzM/changelog-version/branch/develop/graph/badge.svg)](https://codecov.io/gh/AlbertoFdzM/changelog-version)
 
 [![NPM](https://nodei.co/npm/changelog-version.png)](https://nodei.co/npm/changelog-version/)
 
