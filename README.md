@@ -1,8 +1,6 @@
 # Changelog Version
 
-[![Build Status](https://travis-ci.org/AlbertoFdzM/changelog-version.svg?branch=master)](https://travis-ci.org/AlbertoFdzM/changelog-version) [![codecov.io](https://codecov.io/github/AlbertoFdzM/changelog-version/coverage.svg?branch=master)](https://codecov.io/github/AlbertoFdzM/changelog-version?branch=master) [![bitHound Overall Score](https://www.bithound.io/github/AlbertoFdzM/changelog-version/badges/score.svg)](https://www.bithound.io/github/AlbertoFdzM/changelog-version)
-[![Dependency Status](https://gemnasium.com/badges/github.com/AlbertoFdzM/changelog-version.svg)](https://gemnasium.com/github.com/AlbertoFdzM/changelog-version)
-[![Greenkeeper badge](https://badges.greenkeeper.io/AlbertoFdzM/changelog-version.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/AlbertoFdzM/changelog-version.svg?branch=master)](https://travis-ci.org/AlbertoFdzM/changelog-version)
 
 [![NPM](https://nodei.co/npm/changelog-version.png)](https://nodei.co/npm/changelog-version/)
 
