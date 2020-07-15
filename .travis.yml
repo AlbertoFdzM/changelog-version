@@ -1,9 +1,12 @@
 language: node_js
 node_js:
-  - "node"
-  - "10"
-  - "12"
-  - "14"
+- node
+- '10'
+- '12'
+- '14'
+env:
+  global:
+    secure: YHt14H3lPY4CrhN3+tcsEKfPmoVsWVITfB4NYvFnqThZ2pKU5dS+S9ag/sy8iTiGVjd8IABhErWRF8u6ZTWkZcjEtYgR1HWt6Q6vrWkJlitaqNAuMj58zaNmUFNNtt/cgLC+51wtcVfybGhUJ0VUiMjn4o9pGvaxmbOB8jRBP5EnOULrtOa7F04c3snT0MSHPxQl0dnZW5NbH7FV7etUoxCnjx2IRJUgs+QMI1WOn9yHKEz9MvCZu3eu6t9ppE5nB/TaIzC0ye3LWg4Rl8/Ate8y3MOlJiAW7gjt7paczZryzu/D2ocku+lacI4yTC6d6igrmtJZpwwwWCs5TD87cKrmkJYFXVAZwkyRGbcoNMuVKPYBjPSHkKizE88k3Mh57SbfOWUiT0hVTRqYIGmf0S4357522mmr5YzAAEDVaFvMs8ieZJwIcvUUcfnh7/V4bvMtpDJWaRbqfkfsyJcwuOO9uVWDItCtFGluk9g2xSTSZujJG+1YF7JK0LvWoVaPQMacdVR8xfUQmRAouAQ17G5GiL/Wif34lUZlvah7iJky7Y+CT/g7Jqflx5Iz7SikIK6zjKi6fYdh1jP4R1+EzCh8UfWwadXmanpCBue7ole84Tyitg3fInQvT3nisJej/wzu7OrIzt0xt5I5Nw0eB7cxrn4dsxVPu0NP1+C0Lq0=
 before_script:
-  - npm install -g nyc codecov
+- npm install -g nyc codecov
 script: npm run lint && nyc --reporter=json npm test && codecov
