@@ -1,6 +1,6 @@
 {
   "name": "changelog-version",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Build tool to update CHANGELOG.md file with the version",
   "main": "index.js",
   "bin": "./bin/changelog-version.js",

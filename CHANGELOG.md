@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Security
 -->
 
-## [UNRELEASED]
+## v2.0.0 - 2020-07-15
 
 ### Changed
 - Added support for node 10, 12 and 14
