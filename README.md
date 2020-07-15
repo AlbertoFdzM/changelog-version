@@ -1,6 +1,6 @@
 # Changelog Version
 
-[![Build Status](https://travis-ci.org/AlbertoFdzM/changelog-version.svg?branch=master)](https://travis-ci.org/AlbertoFdzM/changelog-version)
+[![Build Status](https://travis-ci.org/AlbertoFdzM/changelog-version.svg?branch=master)](https://travis-ci.org/AlbertoFdzM/changelog-version) [![Known Vulnerabilities](https://snyk.io/test/github/AlbertoFdzM/changelog-version/badge.svg?targetFile=package.json)](https://snyk.io/test/github/AlbertoFdzM/changelog-version?targetFile=package.json)
 
 [![NPM](https://nodei.co/npm/changelog-version.png)](https://nodei.co/npm/changelog-version/)
 
